@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-color: #eee;
+
+}
+
+.compozition {
+  width: 650px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+
+  background-color: #fff;
+}
+
+.road {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.car {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
