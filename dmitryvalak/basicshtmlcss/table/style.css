@@ -1,0 +1,38 @@
+body {
+  font-family: tahoma, sans-serif;
+}
+
+.mainh1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+table thead {
+  background-color: darkblue;
+}
+
+table tfoot td {
+  text-align: right;
+  background-color: #ccc;
+}
+
+.table {
+  width: 50%;
+  border: 1px dashed #000;
+  border-collapse: collapse;
+  /* border-collapse: collapse - объединяет границы таблиц */
+  table-layout: fixed;
+  /* table-layout: fixed - Делает все ячейки одинаковой ширины */
+}
+
+.table th {
+  padding: 5px;
+  text-align: left;
+  color: cornsilk;
+}
+
+.table td {
+  border: 1px dashed #000;
+  padding: 5px;
+}
+
