@@ -9,32 +9,55 @@
 <body>
 
   <div class="form">
-    <div class="personal-date">
+    <div class="header personal-date">
       <h1 class="title-form">Личные данные</h1>
-        <div class="input_group">
+        <div class="form_group">
           <label for="male">Муж</label>
-          <input type="radio" name="who" id="male">
+          <input type="radio" class="input_radio" name="who" id="male">
           <label for="female">Жен</label>
-          <input type="radio" name="who" id="female">
+          <input type="radio" class="input_radio" name="who" id="female">
         </div>
-        <div class="input_group">
-          <input type="text" name="name" id="name" placeholder="Ваше имя">
+        <div class="form_group">
+          <input type="text" class="input_group" name="name" id="name" placeholder="Ваше имя">
         </div>
-        <div class="input_group">
-          <input type="email" name="email" id="email" placeholder="Ваше email">
+        <div class="form_group">
+          <input type="email" class="input_group" name="email" id="email" placeholder="Ваше email">
         </div>
-        <div class="input_group">
-          <input type="tel" name="phone" id="phone" placeholder="Ваш номер телефона">
+        <div class="form_group">
+          <input type="tel" class="input_group" name="phone" id="phone" placeholder="Ваш номер телефона">
         </div>
-        <div class="input_group">
-          <input type="text" name="sity" id="sity" placeholder="Адрес проживания">
+        <div class="form_group">
+          <input type="text" class="input_group" name="sity" id="sity" placeholder="Адрес проживания">
         </div>
-        <textarea name="aboutme" id="aboutme" placeholder="Информация о вас"></textarea>
-
+        <textarea class="form-textarea input_group" name="aboutme" id="aboutme" placeholder="Информация о вас"></textarea>
     </div>
 
-
-
+    <div class="header deffence">
+      <h1 class="title-form">Безопасность</h1>
+        <div class="form_group">
+          <input type="password" class="input_group" name="password" id="password" placeholder="Старый пароль">
+        </div>
+        <div class="form_group">
+          <input type="password" class="input_group" name="password" id="password" placeholder="Новый пароль">
+        </div>
+        <div class="form_group">
+          <input type="password" class="input_group" name="password" id="password" placeholder="Новый пароль еще раз">
+        </div>
+        <div class="form_group">
+          <input type="tel" class="input_group" name="phone" id="phone" placeholder="Ваш номер телефона">
+        </div>
+        <div class="form_group">
+          <select name="secret-question" id="" >
+            <option value="">Секретный вопрос</option>
+            <option value="">Как зовут твою собаку?</option>
+            <option value="">Сколько лет тете Зине?</option>
+            <option value="">Дебильные вопросы?</option>
+          </select>
+        </div>
+        <div class="form_group">
+          <input type="text" class="input_group" name="text" id="phone" placeholder="Ответ на секретный вопрос">
+        </div>
+      </div>
   </div>
   
 </body>
