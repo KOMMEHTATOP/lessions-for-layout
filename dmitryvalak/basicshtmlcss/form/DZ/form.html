@@ -47,7 +47,7 @@
           <input type="tel" class="input_group" name="phone" id="phone" placeholder="Ваш номер телефона">
         </div>
         <div class="form_group">
-          <select name="secret-question" id="" >
+          <select class="secret_question" name="secret-question" id="" >
             <option value="">Секретный вопрос</option>
             <option value="">Как зовут твою собаку?</option>
             <option value="">Сколько лет тете Зине?</option>
@@ -58,7 +58,24 @@
           <input type="text" class="input_group" name="text" id="phone" placeholder="Ответ на секретный вопрос">
         </div>
       </div>
+
+      <div class="header alerts">
+        <h1 class="title-form">Оповещения</h1>
+          <div class="form_group">
+            <input type="checkbox" class="alerts" name="alerts" id="alerts_email" placeholder="Старый пароль">
+            <label for="alerts_email">Получать новости на email</label>
+          </div>
+          <input type="checkbox" class="alerts" name="alerts" id="alerts_sale" placeholder="Старый пароль">
+          <label for="alerts_sale">Получать новости о скидках</label>
+        </div>
+        <div class="btn">
+        <button class="save-btn" type="submit">Сохранить</button>
+        <button class="cansel-btn" type="reset">Отменить и очистить</button>
+        </div>
+      </div>
   </div>
+
+  
   
 </body>
 </html>
