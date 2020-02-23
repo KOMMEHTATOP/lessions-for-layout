@@ -1,0 +1,47 @@
+.element {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+
+  background-color: #cccccc;
+
+  border-radius: 20px; /* Можно указать в процентах, к примеру 50% сделает круг из квадрата */
+  box-shadow: 0 0 20px #333333; /* ось x, ось y, (иногда можно указать 4й параметр в пикселях РАЗМЕР ТЕНИ), размытие, цвет тени */
+
+}
+
+.element2 {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+
+  background-color: #b45959;
+
+  border-radius: 0px 10px 20px 45px; /* указать закругление для каждого отдельно */
+  box-shadow: -15px 0 20px 10px #333333 inset; /* Внутреняя тень + 4й параметр */
+}
+
+.element3 {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+
+  background-color: #474ada;
+
+  border-top-left-radius: 30%; /* Указываем любой отдельный угол */
+  box-shadow: -15px 0 20px 10px #dadb77 inset, 5px -10px 20px 10px #0ab350; /* 2 тени через запятую */
+}
+
+.element4 {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+
+  background-color: #50d361;
+
+  border-radius: 5px 15px 25px 45px / 50px 50px 50px 50px; /* Если нужно сделать кривой угол: УГОЛ: Верняя и нижняя сторона/левая и правая. */
+}
+
+.element-title {
+  margin: 0; 
+}
