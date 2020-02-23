@@ -1,0 +1,64 @@
+.pseulo-title {
+  margin: 0;
+
+  font-size: 30px;
+}
+
+/* .pseulo-title::before,
+.pseulo-title::after {
+  font-size: 21px;
+  color: red;
+
+}
+
+.pseulo-title::before {
+content: '1.';
+}
+
+.pseulo-title::after {
+content: '!';
+} 
+
+ЗАКРЫЛ ДЛЯ ДАЛЬНЕЙШЕГО ИЗУЧЕНИЯ */
+
+.pseulo-title {
+  margin: 0;
+
+  font-size: 30px;
+  text-align: center;
+
+  position: relative;
+}
+
+.pseulo-title::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 70px;
+  height: 3px;
+  bottom: -5px;
+  left: 50%;
+  margin-left: -35px;
+
+  background-color: #ce2828;
+
+}
+
+.pseulo-title::after {
+  content: '';
+  display: block;
+  width: 70px;
+  margin: 5px auto;
+  height: 3px;
+  
+  background-color: #2b28ce;
+}
+
+.pseulo-text p::first-letter /* Первая буква */ {
+ color: red;
+ font-size: 20px;
+}
+
+.pseulo-text p::first-line /* Первая строка */{
+  text-transform: uppercase;
+}
