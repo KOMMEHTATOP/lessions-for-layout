@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Симантические теги</title>
+</head>
+<body>
+  
+  <header>
+    <!-- ШАПКА ДОКУМЕНТА -->
+  </header>
+
+  <nav>
+    <!-- НАВИГАЦИЯ САЙТА НАВИГАЦИЯ -->
+    <a href="#" class="nav">Главная</a>
+    <a href="#" class="nav">Новости</a>
+    <a href="#" class="nav">Об авторе</a>
+  </nav>
+  
+  <main>
+    <!-- ОСНОВНОЕ СОДЕРЖИМОЕ СТРАНИЦЫ -->
+    
+    <section>  
+      <!-- ЗАДАЕТ СЕКЦИЮ САЙТА НО В КАЖДОЙ СЕКЦИИ ДОЛЖЕН БЫТЬ ЗАГОЛОВОК h1-h6 НЕ ВАЖНО КАКОЙ-->
+      <h2>ЗАГОЛОВОК ДЛЯ section</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, autem! Eos harum molestiae reprehenderit, labore numquam quia sit temporibus esse consequatur velit pariatur! Cupiditate, tempora nobis dignissimos dolorum sint temporibus.</p>
+    </section> 
+    
+    <article> 
+      <!-- ОТДЕЛЯЕТ ЗАПИСИ, НОВОСТИ, СТАТЬИ НА САЙТЕ, НО В КАЖДОЙ СЕКЦИИ ДОЛЖЕН БЫТЬ ЗАГОЛОВОК h1-h6 НЕ ВАЖНО КАКОЙ -->
+      <h2>ЗАГОЛОВОК ДЛЯ article</h2>
+      <!-- УКАЗЫВАТЬ ВРЕМЯ ПУБЛИКАЦИИ time -->
+        <time datetime="21-12-2077 19:00">21.12.2077</time> 
+          <p>
+            <figure>
+              <!-- ИСПОЛЬЗУЕТСЯ ДЛЯ КАРТИНОК И ДЕЛАЕТ ОТСТУПЫ-->
+              <img src="image/summer.jpeg" alt="" width="200px">
+              <figcaption>
+                <!-- ИСПОЛЬЗУЕТСЯ ДЛЯ ОПИСАНИЯ КАРТИНКИ -->
+                Как я провел лето
+              </figcaption>
+            </figure>
+          </p>
+            <p>Lorem ipsum dolor <mark > <!-- ДЛЯ ПОДСВЕТКИ ИСКОМОГО ТЕКСТА ПОЧТИ НЕ ИСПОЛЬЗУЕТЬСЯ -->sit amet consectetur</mark> adipisicing elit. Incidunt, autem! Eos harum molestiae reprehenderit, labore numquam quia sit temporibus esse consequatur velit pariatur! Cupiditate, tempora nobis dignissimos dolorum sint temporibus.</p>
+    </article>
+  </main>
+    
+  <aside class="sidebar">
+      <!-- ИСПОЛЬЗУЕТСЯ ДЛЯ БОКОВЫХ КОЛОНОК -->
+      БОКОВАЯ ПАНЕЛЬ САЙТА
+  </aside>
+
+  <footer>
+    <!-- ПОДВАЛ САЙТА -->
+  <address>
+    <!-- СЛУЖИТ ДЛЯ АДРЕСНОЙ ИЛИ КОНТАКТНОЙ ИНФОРМАЦИИ -->
+    <p>Улица, дом, телефон</p>
+    <p>+798989898989898989</p>
+    <p>info.test@text.ru</p>
+  </address>
+  </footer>
+</body>
+</html>
