@@ -1,0 +1,10 @@
+Сделать блок header flexbox контейнером
+Сделать так, чтобы brand был слева, а nav справа в блоке  header (justify-content)
+Выровнять по центру по вертикали элементы flexbox контейнера (align-items)
+Сделать блок benefits  flexbox контейнером
+Задать для benefits-item ширину 31%
+Задать для benefits свойство justify-content: space-between
+Сделать блок article flexbox контейнером
+Задать для article-photo ширину 300px
+Задать для article-content внутренний отступ 20px
+Скопировать article и добавить его под первым блоком article
