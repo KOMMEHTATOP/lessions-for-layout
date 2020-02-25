@@ -1,18 +1,32 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;/* Держит заданные размеры, падинги не увиличивают блок */
+}
+
 .element {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   margin: 20px auto;
+  padding: 20px;
 
   background-color: #cccccc;
 
   border-radius: 20px; /* Можно указать в процентах, к примеру 50% сделает круг из квадрата */
   box-shadow: 0 0 20px #333333; /* ось x, ось y, (иногда можно указать 4й параметр в пикселях РАЗМЕР ТЕНИ), размытие, цвет тени */
+  
+  opacity: 0.8 ; /* Прозрачность от 0 до 1 */
+}
 
+.element-title {
+  margin: 0;
+
+  text-shadow: 1px 1px 2px #ffffff; /* Тень для текста */
 }
 
 .element2 {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   margin: 20px auto;
 
   background-color: #b45959;
@@ -22,8 +36,8 @@
 }
 
 .element3 {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   margin: 20px auto;
 
   background-color: #474ada;
@@ -33,8 +47,8 @@
 }
 
 .element4 {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   margin: 20px auto;
 
   background-color: #50d361;
@@ -45,3 +59,4 @@
 .element-title {
   margin: 0; 
 }
+

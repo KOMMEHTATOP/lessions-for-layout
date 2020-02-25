@@ -76,16 +76,18 @@ body {
 .btn {
   display: block;
   width: 260px;
+  padding: 10px;
+
   font-family: inherit;
   font-size: 15px;
 
-  border: 0;
+  border: 2px linear #088e92;
   background-color: #2ead74;
   color: #fff;
 
-  padding: 10px;
-
+  transition: background 0.2s linear, border-color 0.2s linear /* Делет переход плавным*/
 }
+
 
 .btn:focus {
   outline: 0;
@@ -94,6 +96,7 @@ body {
 .btn:hover,
 .btn:focus {
   background-color: #186442;
+  border-color: rgb(248, 232, 2);
   cursor: pointer;
 }
 
