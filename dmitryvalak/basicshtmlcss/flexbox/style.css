@@ -1,0 +1,39 @@
+.page {
+  width: 600px;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  background-color: #eee;
+  padding: 20px;
+
+  justify-content: space-between; /* Управляет размещением элементов внутри блока (значений несколько) */
+}
+
+.header-item {
+  width: 33.33333%;
+}
+
+.content {
+  display: flex; /* Перенес элементы внутри себя на 1 строку */
+}
+
+.sidebar {
+  width: 15%;
+  background-color: #000000;
+  padding: 10px;
+  color: #fff;
+}
+
+.main {
+  width: 70%;
+  background-color: #ca2424;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #c0b7b7;
+  padding: 20px;
+}
