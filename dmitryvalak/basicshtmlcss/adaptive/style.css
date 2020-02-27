@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  padding: 1rem;
+  margin: 20px auto;
+
+  background-color: #eee;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  height: 300px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+/* MEDIA */
+
+@media (max-width: 600px) {
+  .flex-item {
+    flex-basis: 100%;
+  }
+
+  .red {
+    order: 1;
+  }
+
+  .green {
+    order: 2;
+  }
+
+  .blue {
+    order: 3;
+  }
+}
+
+
+
+@media (max-height: 400px) {
+  .flex-item {
+    height: 200px;
+  }
+}
+
+/* Запрос на ориентацию гаджета и можно делать сразу 2 условия*/
+@media (max-height: 350px) and (orientation: landscape) {
+  .flex-item {
+    flex-basis: 50%;
+  }
+}
